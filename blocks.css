@@ -8,23 +8,52 @@ body {
 }
 
 /* Here is one of many  CSS rules you will need... */
+#one, #two, #three, #four {
+    position: fixed;
+    width: 25%;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
 #one {
-    border: 5px orangered;
+    border: 5px solid blue;
+    bottom: 0;
+    right: 0;
 }
 
 #two {
-    
+    border: 5px solid green;
+    top: 0;
+    right: 0;
 }
 
 #three {
-    
+    border: 5px solid orange;
+    top: 0;
+    left: 0;
 }
 
 #four {
-    
+    border: 5px solid yellow;
+    bottom: 0;
+    left: 0;
+}
+#link {
+    position: fixed;
+    top: 0; 
+    left: 50%;
+    width: auto; 
+    transform: translateX(-50%); 
+    text-align: center; 
+    box-sizing: border-box; 
+    padding: 0; 
 }
 
-#link {
-    
-}
-  
+/* Estilo para el enlace */
+#link a {
+    background-color: blue; /* Color de fondo azul para el enlace */
+    color: white; /* Color del texto del enlace */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    display: inline-block; /* Hace que el enlace solo ocupe el espacio necesario */
+}   
